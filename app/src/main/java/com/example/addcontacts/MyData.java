@@ -4,6 +4,7 @@ public class MyData {
     String name;
     String address;
     byte[] image;
+    String mobile;
 
     public String getName() {
         return name;
@@ -27,5 +28,13 @@ public class MyData {
 
     public byte[] getImage() {
         return image;
+    }
+
+    public void setMobile(String toString) {
+        this.mobile=toString;
+    }
+
+    public String getMobile() {
+        return mobile;
     }
 }
